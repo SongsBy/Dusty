@@ -34,10 +34,9 @@ class Categorystat extends StatelessWidget {
                       child: Text(
                         '종류별 통계',
                         textAlign: TextAlign.center,
-                        style: TextTheme.of(context).displaySmall!.copyWith(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ),
+                        style: TextTheme.of(
+                          context,
+                        ).displayLarge?.copyWith(fontSize: 15, color: Colors.white),
                       ),
                     ),
                   ),
