@@ -9,4 +9,5 @@
 - path_provider: ^2.1.5
 - get_it: ^7.6.8
 - 정부 API활용
-- 
+- Isar
+- Drawer위젯 탭바
